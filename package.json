@@ -1,0 +1,20 @@
+{
+  "name": "go_deploy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "learning to deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "deploy"
+  ],
+  "author": "Shantanu Rao",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
