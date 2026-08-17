@@ -1,5 +1,5 @@
 import express from 'express';
-require('dotenv').config();
+import 'dotenv/config';
 
 const app=express();
 
@@ -15,8 +15,8 @@ app.get('/instagram',(req,res)=>{
     res.send('follow @shantanu__rao');
 });
 
-app.listen(process.env.PORT,()=>{
-    console.log("App is running at http://localhost:3000");
+app.listen((process.env.PORT),()=>{
+    console.log(`App is running at http://localhost:${process.env.PORT}`);
 });
 
 
